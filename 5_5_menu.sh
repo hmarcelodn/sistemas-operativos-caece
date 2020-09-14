@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "BIENVENIDO $(whoami)"
+
+echo ""
+echo "1) VER USUARIOS CONECTADOS"
+echo "2) VER EL FACTORIAL DE UN NUMERO"
+echo "3) COMPRIMIR UN ARCHIVO"
+echo "4) BUSCAR Y ELIMINAR ARCHIVO COMPRIMIDO"
+
+read MENU_OPCION
